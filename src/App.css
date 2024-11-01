@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+*{
+  margin: 0px;
+  padding: 0px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  background-image: url("https://t3.ftcdn.net/jpg/06/04/74/88/360_F_604748806_gQSyPrazhAocHefqrUtieGBKK22PS5QZ.jpg");
+  background-color: rgb(53, 69, 64);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+  height:100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  
 }
+.passwordBox{
+  width:450px;
+  padding:20px;
+  background-color: rgb(44, 19, 59);
+  background:linear-gradient(rgba(31, 56, 24, 0.781),rgb(30, 21, 56,0.781),rgb(21, 20, 21,0.781));
+  height:350px;
+  color:white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  box-shadow: 10px rgb(46, 31, 31);
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.passwordBoxin{
+  display: flex;
+}
+.passwordBoxin input{
+  flex-basis: 80%;
+  padding-left:5px;
+}
+.passwordBoxin button{
+  flex-basis: 20%;
+  padding:10px 0px;
+  cursor: pointer;
+}
+.passlength{
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.passlength label{
+  flex-basis:80%;
+}
+.passlength input{
+  padding: 10px 0px;
+  width:60px;
+  flex-basis: 20px;
+}
+.btn{
+  width:100%;
+  padding: 10px 0px ;
+  cursor: pointer;
+  background-color: green;
 }
