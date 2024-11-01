@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/1Anchal/Password-Generator/static/css/main.1bff05b2.css",
+    "main.js": "/1Anchal/Password-Generator/static/js/main.d1a5c1de.js",
+    "static/js/453.4e2b4861.chunk.js": "/1Anchal/Password-Generator/static/js/453.4e2b4861.chunk.js",
+    "static/media/logo.svg": "/1Anchal/Password-Generator/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/1Anchal/Password-Generator/index.html",
+    "main.1bff05b2.css.map": "/1Anchal/Password-Generator/static/css/main.1bff05b2.css.map",
+    "main.d1a5c1de.js.map": "/1Anchal/Password-Generator/static/js/main.d1a5c1de.js.map",
+    "453.4e2b4861.chunk.js.map": "/1Anchal/Password-Generator/static/js/453.4e2b4861.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bff05b2.css",
+    "static/js/main.d1a5c1de.js"
+  ]
+}
