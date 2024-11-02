@@ -15,11 +15,11 @@ body{
   
 }
 .passwordBox{
-  width:450px;
+  width:350px;
   padding:20px;
   background-color: rgb(44, 19, 59);
   background:linear-gradient(rgba(31, 56, 24, 0.781),rgb(30, 21, 56,0.781),rgb(21, 20, 21,0.781));
-  height:350px;
+  height:300px;
   color:white;
   justify-content: center;
   align-items: center;
